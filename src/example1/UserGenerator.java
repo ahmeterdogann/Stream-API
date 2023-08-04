@@ -38,8 +38,8 @@ public class UserGenerator {
         for (User user : users) {
             System.out.println(user.getName() + " " + user.getLastName() + " - " + user.getCity() + " - " + user.getAge());
         }
-        System.out.println("******************************************************************");
-        System.out.println("******************************************************************");
+        System.out.println("*******************************************************************");
+        System.out.println("*******************************************************************");
         return Arrays.asList(users);
     }
 }

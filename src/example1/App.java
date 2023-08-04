@@ -9,29 +9,29 @@ public class App {
         List<User> users = UserGenerator.getRandomUser(20);
 
         printAll(users);
-        System.out.println("******************************************************************");
+        System.out.println("*******************************************************************");
         printGreaterThan30(users);
-        System.out.println("******************************************************************");
+        System.out.println("*******************************************************************");
         printEvenAge(users);
-        System.out.println("******************************************************************");
+        System.out.println("*******************************************************************");
         printEvenAndGreaterThan30(users);
-        System.out.println("******************************************************************");
+        System.out.println("*******************************************************************");
         printEvenOrGreaterThan30(users);;
-        System.out.println("******************************************************************");
+        System.out.println("*******************************************************************");
         printUserNameWithCityAndAge(users);
-        System.out.println("******************************************************************");
+        System.out.println("*******************************************************************");
         ArrayList<Integer> numbers = new ArrayList<>(Arrays.asList(-1, -2, 1, 1, 2, 3, 4, 2, 1));
         distinctNumber(numbers);
-        System.out.println("******************************************************************");
+        System.out.println("*******************************************************************");
         sortUsersByAgeAsc(users);
-        System.out.println("******************************************************************");
+        System.out.println("*******************************************************************");
         sortUsersByAgeDesc(users);
         System.out.println("Yaşı 30'dan büyük olanların yaşları toplamı reduce : " + sumWithReduce(users));
         System.out.println("Yaşı 30'dan büyük olanların yaşları toplamı Int sum : " + sumWithInt(users));
         System.out.println("Yaşı 30'dan büyük olanların yaşları toplamı Math : " + sumWithMath(users));
-        System.out.println("******************************************************************");
+        System.out.println("*******************************************************************");
         System.out.println("Yaşadığı şehrin karakter sayısı ile yaşı toplamı çift olanlardan yeni liste : " + listOfLettersOfCityPlusAgesEquealEven(users));
-        System.out.println("******************************************************************");
+        System.out.println("*******************************************************************");
         System.out.println("Soyadlarına göre sıralandıktan sonra ilk 2 eleman : " + listOfSortedByLastName(users));
     }
 
